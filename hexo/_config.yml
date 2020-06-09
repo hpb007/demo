@@ -100,5 +100,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hpb007/demo.github.io.git
+  repo: git@github.com:hpb007/hpb007.github.io.git
   branch: master
+
+admin:
+  deployCommand: ./admin_script/hexo-d.sh
